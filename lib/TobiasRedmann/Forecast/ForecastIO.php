@@ -176,7 +176,7 @@ class ForecastIO{
  */
 class ForecastIOConditions{
   
-  private $raw_data;
+  protected $raw_data;
   
   function __construct($raw_data) {
     
@@ -366,8 +366,6 @@ class ForecastIOConditions{
     
   }
   
-
-  
   /**
    * get sunrise time
    * 
@@ -409,6 +407,13 @@ class ForecastIOConditions{
     }
     
   }
-  
+
+  /**
+   * @return mixed
+   */
+  public function getRawData()
+  {
+      return $this->raw_data;
+  }
 }
 ?>
