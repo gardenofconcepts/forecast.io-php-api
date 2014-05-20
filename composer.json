@@ -1,0 +1,12 @@
+{
+    "name": "tobias-redmann/forecast.io-php-api",
+    "description": "A simple PHP wrapper for the Forecast.io weather API",
+    "keywords": ["api", "weather"],
+    "homepage": "https://github.com/tobias-redmann/forecast.io-php-api",
+    "authors": [
+        {
+        "name": "Tobias Redmann",
+        "homepage": "http://www.tricd.de/"
+        }
+    ]
+}
