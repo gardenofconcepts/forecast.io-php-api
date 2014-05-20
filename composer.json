@@ -8,5 +8,10 @@
         "name": "Tobias Redmann",
         "homepage": "http://www.tricd.de/"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0" : {
+            "TobiasRedmann\\Forecast" : "lib/"
+        }
+    }
 }

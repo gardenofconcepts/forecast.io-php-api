@@ -1,4 +1,7 @@
 <?php
+
+namespace TobiasRedmann\Forecast;
+
 /**
  * Helper Class for forecast.io webservice
  */
